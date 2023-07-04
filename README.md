@@ -6,3 +6,5 @@
 "NVDAPILog.py" creates a SQLite database, “CVEdatabase.db,” and records reformatted CVE records before checking their CVSS score.  The SQLite database serves no purpose beyond recordkeeping, though it may prove useful in future iterations of the program.
 
 "NVDAPILog_NoSQLite.py" does not create a database, and checks each CVE’s CVSS score _before_ parsing it.  A record is only reformatted if the score triggers a log entry.
+
+"CoPy_v100.py" is a mini-RPG with GUI.  It was written in June of 2022.
