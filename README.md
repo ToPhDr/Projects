@@ -1,4 +1,4 @@
-# This collection of projects is a practical demonstration coding with Python.
+# This collection of projects is a practical demonstration of coding with Python.
 ## Comments, feedback, & professional inquiries are welcome.
 
 "NVDAPILog.py" & "NVDAPILog_NoSQLite.py" perform similar functions.  Both programs use the National Vulnerability Database's free API to retrieve Common Vulnerability & Exposure (CVE) records in JSON format.  The API retrieves any CVE record created or modified within _n_ hours of the current time, where _n_ is a variable that can be set in an accompanying config.yaml file.  The CVE records are parsed & reformatted as lists, and if any record has a CVSS score greater than _x_ (another configurable variable), a log file with records is generated.  The default values for _n_ & _x_ are "2" & "9.0," respectively.
